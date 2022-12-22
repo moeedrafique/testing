@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header" style="background: none;height:100px">
+        <div class="container">
+            <nav>
+                <h2>Moeed Rafique</h2>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/form.html">Form</a></li>
+                    <li><a href="/table.html">Table</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="form">
+        <div class="container">
+        <h1 class="">Task 3: Form</h1>
+        <form action="/submit-personal-info" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="male"> Male
+            <br>
+            <input type="radio" id="gender" name="gender" value="female"> Female
+            <br>
+            <input type="radio" id="gender" name="gender" value="other"> Other
+            <br>
+            <label for="remarks">Remarks:</label>
+            <textarea id="remarks" name="remarks"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+    </div>
+      
+      
+</body>
+</html>
